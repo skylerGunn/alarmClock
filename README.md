@@ -4,3 +4,4 @@
 *user needs to be able to switch between 2 display modes, 12 hour and 24 hour display*
 *user must also be able to adjust the current time via input, and have the clock display the change as well as updating the system clock/time mechanism*
 *Additionally, must be able to set 1 or 2 alarms. When the system clock is in sync with that alarm time, will sound alarm until alarm is turned off. If the user hits "snooze", stop alarm and set another alarm for a certain time distance ahead in the future*
+![alt text](https://github.com/skylerGunn/alarmClock/blob/master/alarm.png "alarm")
