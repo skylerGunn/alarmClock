@@ -8,6 +8,8 @@
 ![alt text](https://github.com/skylerGunn/alarmClock/blob/master/alarm.png "alarm")
 
 Startup: the alarm is booted up, time is set correctly, and user must set the alarm
+
+
 | Scenario        | set up alarm and have it go off           |
 | ------------- |:-------------:|
 | Triggering event      | user hits button that allows them to set alarm |
