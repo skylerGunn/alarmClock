@@ -7,14 +7,14 @@
 
 ![alt text](https://github.com/skylerGunn/alarmClock/blob/master/alarm.png "alarm")
 
-
-| Scenario        | Are           |
+Startup: the alarm is booted up, time is set correctly, and user must set the alarm
+| Scenario        | set up alarm and have it go off           |
 | ------------- |:-------------:|
-| Triggering event      | right-aligned |
-| Actors      | centered      |
-| Related use cases | are neat      |
-| Stakeholders           |test      |
-| precondition  | test |
-| postcondition | test |
-| flow of events | test |
-| exception | test |
+| Triggering event      | user hits button that allows them to set alarm |
+| Actors      | user input, system clock, system display      |
+| Related use cases | display time, update/change clock      |
+| Stakeholders           | user, system clock, system display      |
+| precondition  | No more than 1 alarm already set |
+| postcondition | An alarm is set/ready to go off |
+| flow of events | user changes mode to set alarm, system then changes modes and system display displays a change. User then sets their desired alarm time using input buttons and the system records that time for alarm when finished. Alarm goes off when system clock matches the set alarm |
+| exception | If more than 1 alarm already set, cannot set another alarm. If user does a "snooze" input after alarm goes off, sets new alarm a set time after snooze |
