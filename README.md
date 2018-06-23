@@ -20,3 +20,16 @@ Startup: the alarm is booted up, time is set correctly, and user must set the al
 | postcondition | An alarm is set/ready to go off |
 | flow of events | user changes mode to set alarm, system then changes modes and system display displays a change. User then sets their desired alarm time using input buttons and the system records that time for alarm when finished. Alarm goes off when system clock matches the set alarm |
 | exception | If more than 1 alarm already set, cannot set another alarm. If user does a "snooze" input after alarm goes off, sets new alarm a set time after snooze |
+
+Startup: the alarm is booted up, need to set time
+
+| Scenario        | update/change clock         |
+| ------------- |:-------------:|
+| Triggering event      | user hits button that allows them to set time|
+| Actors      | user input, system clock, system display      |
+| Related use cases | display time, set up alarm      |
+| Stakeholders           | user, system clock, system display      |
+| precondition  | Clock is working |
+| postcondition | Clock is updated to the correct time |
+| flow of events | user changes mode to set clock, then updates system clock to new time set by the user, then reverts back to normal mode |
+| exception | none |
