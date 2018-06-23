@@ -14,3 +14,7 @@
 | Actors      | centered      |
 | Related use cases | are neat      |
 | Stakeholders           |test      |
+| precondition  | test |
+| postcondition | test |
+| flow of events | test |
+| exception | test |
